@@ -1,5 +1,9 @@
 # 🎥 x265-AutoEncoder
 
+[![Python](https://img.shields.io/badge/python-3.6%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/ittudeitachi/x265-AutoEncoder/blob/main/LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/ittudeitachi/x265-AutoEncoder?label=Release)](https://github.com/ittudeitachi/x265-AutoEncoder/releases)
+
 Batch re-encode your video library into **HEVC/x265** with automatic hardware acceleration support.  
 Preserves **all audio tracks, subtitles, chapters, and attachments** while shrinking video size.  
 
@@ -82,6 +86,8 @@ ffprobe -version
     Duration: 103m 5s
     [██████░░░░░░░░░░░░░░░░░░░]  25.3%  speed 2.45x  ETA  28m 42s
 ```
+## 📊 Example Output
+![Progress Example](progress.png)
 
 ---
 

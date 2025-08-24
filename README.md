@@ -86,8 +86,6 @@ ffprobe -version
     Duration: 103m 5s
     [██████░░░░░░░░░░░░░░░░░░░]  25.3%  speed 2.45x  ETA  28m 42s
 ```
-## 📊 Example Output
-![Progress Example](progress.png)
 
 ---
 

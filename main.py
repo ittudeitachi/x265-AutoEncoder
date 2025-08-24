@@ -4,7 +4,7 @@ import subprocess
 from pathlib import Path
 from time import monotonic
 
-TOOL_NAME = "x265-AutoEncoder"
+APP = "x265-AutoEncoder"
 VERSION   = "1.3.0"
 
 # Edit these paths
@@ -39,7 +39,7 @@ def print_banner(encoder_choice: str):
     suffix = "_x265" if encoder_choice == "x265" else f"_x265_{encoder_choice}"
     line = "=" * 60
     print(line)
-    print(f" {TOOL_NAME} v{VERSION}")
+    print(f" {APP} v{VERSION}")
     print(line)
     print(f" Input   : {INPUT_DIR}")
     print(f" Output  : {OUTPUT_DIR}")

@@ -8,8 +8,8 @@ APP = "x265-AutoEncoder"
 VERSION   = "1.3.0"
 
 # Edit these paths
-INPUT_DIR  = r"C:\Users\iirusham\Downloads\Video\I"
-OUTPUT_DIR = r"C:\Users\iirusham\Downloads\Video\O"
+INPUT_DIR  = r"C:\Users\You\Videos\Input"
+OUTPUT_DIR = r"C:\Users\You\Videos\Output"
 
 CRF    = "21"
 PRESET = "slow"
